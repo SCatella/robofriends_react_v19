@@ -1,6 +1,7 @@
 import { Component } from 'react';
-import Card from './Card.jsx';
 import './App.css';
+import Card from './Card.jsx';
+import CardList from './CardList.jsx';
 import 'tachyons';
 import { robots } from './assets/robots.js'
 
