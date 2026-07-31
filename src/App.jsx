@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <h1>Robofriends</h1>
         <CardList robots={robots}/>
       </>
     )
