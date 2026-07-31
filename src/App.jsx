@@ -2,7 +2,7 @@ import { Component } from 'react';
 import './App.css';
 import CardList from './CardList.jsx';
 import 'tachyons';
-import { robots } from './assets/robots.js'
+import { robots } from './assets/robots.js';
 
 class App extends Component {
   render() {
@@ -14,4 +14,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App;
