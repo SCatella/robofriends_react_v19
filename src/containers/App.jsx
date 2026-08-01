@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import './App.css';
-import CardList from './CardList.jsx';
-import Scroll from './Scroll.jsx';
-import SearchBox from './SearchBox.jsx'
+import CardList from '../components/CardList.jsx';
+import Scroll from '../components/Scroll.jsx';
+import SearchBox from '../components/SearchBox.jsx';
 import 'tachyons';
 
 
