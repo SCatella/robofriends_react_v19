@@ -1,45 +1,45 @@
 #   Cloning Repo
 
-### To clone this repo open your terminal to your desired directory and type:
+To clone this repo open your terminal to your desired directory and type:
 
-git clone <repo>
+`git clone <repo>`
 
-npm install
+`npm install`
 
 
 #   Update NPM Packages
 
-### Run:
+Run:
 
-npm audit
+`npm audit`
 
-### for a list of outdated packages that can be updated. Keep note of any breaking changes as
-### packages update.
+for a list of outdated packages that can be updated. Keep note of any breaking changes as
+packages update.
 
 
 #   Start Server
 
-### To start the server on localhost run:
+To start the server on localhost run:
 
-npm start
+`npm start`
 
-### I have configured package.json to launch this in a separate Windows Terminal tab. If this fails
-### due to not being on a Windows system using Windows Terminal please use:
+I have configured package.json to launch this in a separate Windows Terminal tab. If this fails
+due to not being on a Windows system using Windows Terminal please use:
 
-npm run dev
+`npm run dev`
 
 
 #   Build Project
 
-### To build project run:
+To build project run:
 
-npm run build
+`npm run build`
 
 ##  *** NOTE ***
 
-### This project is using Tachyons. At the time of this project Tachyons is using an obsolete CSS hack
-### for IE6/7. After installing your npm packages please remove:
+This project is using Tachyons. At the time of this project Tachyons is using an obsolete CSS hack
+for IE6/7. After installing your npm packages please remove:
 
 *zoom: 1;
 
-### from both Tachyons CSS files located in node_modules/tachyons/css at the time of this writing.
+from both Tachyons CSS files located in node_modules/tachyons/css at the time of this writing.
