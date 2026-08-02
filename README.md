@@ -40,6 +40,6 @@ To build project run:
 This project is using Tachyons. At the time of this project Tachyons is using an obsolete CSS hack
 for IE6/7. After installing your npm packages please remove:
 
-*zoom: 1;
+`*zoom: 1;`
 
 from both Tachyons CSS files located in node_modules/tachyons/css at the time of this writing.
