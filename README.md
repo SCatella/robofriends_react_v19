@@ -1,18 +1,45 @@
-# React + Vite
+#   Cloning Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To clone this repo open your terminal to your desired directory and type:
 
-Currently, two official plugins are available:
+git clone <repo>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+npm install
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+#   Update NPM Packages
 
-Note: This will impact Vite dev & build performances.
+Run:
 
-## Expanding the ESLint configuration
+npm audit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+for a list of outdated packages that can be updated. Keep note of any breaking changes as
+packages update.
+
+
+#   Start Server
+
+To start the server on localhost run:
+
+npm start
+
+I have configured package.json to launch this in a separate Windows Terminal tab. If this fails
+due to not being on a Windows system using Windows Terminal please use:
+
+npm run dev
+
+
+#   Build Project
+
+To build project run:
+
+npm run build
+
+##  *** NOTE ***
+
+This project is using Tachyons. At the time of this project Tachyons is using an obsolete CSS hack
+for IE6/7. After installing your npm packages please remove:
+
+*zoom: 1;
+
+from both Tachyons CSS files located in node_modules/tachyons/css at the time of this writing.
